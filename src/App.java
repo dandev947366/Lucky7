@@ -32,7 +32,11 @@ public class App {
 
             System.out.print("You have $ " + bet + " " + "Play again? (y/n): ");
             String choice = scanner.next();
-           reset = choice.equalsIgnoreCase("yes");
+            
+
+            if (choice.equals("y"))
+            {reset = true;}
+            else {reset=false;}
         }
 
       System.out.println("Thank you.");
