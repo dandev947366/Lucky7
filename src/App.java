@@ -39,7 +39,7 @@ public class App {
             else {reset=false;}
         }
 
-      System.out.println("Thank you.");
+      System.out.println("Thank you for playing. See you again!");
         scanner.close();
     }
 
