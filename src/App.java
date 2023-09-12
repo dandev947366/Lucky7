@@ -30,7 +30,7 @@ public class App {
                 break;
             }
 
-            System.out.print("You have " + bet + "Play again? (y/n): ");
+            System.out.print("You have $ " + bet + " " + "Play again? (y/n): ");
             String choice = scanner.next();
            reset = choice.equalsIgnoreCase("yes");
         }
